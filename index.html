@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock, Paper, Scissors</title>
+</head>
+
+<body>
+
+    <div class="telaJogoInteiro">
+        <div class="caixaJogador">
+            <h1>Rock | Paper | Scissors</h1>
+            <h2 class="titulo">You</h2>
+            <div>
+                <select name="" id="comboEscolha" onchange="monitoraEscolhaDoJogador()">
+                    <option value="choose">Choose</option>
+                    <option value="rock">Rock</option>
+                    <option value="paper">Paper</option>
+                    <option value="scissors">Scissors</option>
+                </select>
+                <button class="botaoJogo" onclick="jogo()">Play</button>
+                <button class="botaoJogo" onclick="reiniciaJogo()">Restart</button>
+                <br><br>
+                <img src="" alt="" id="imgJogador">
+            </div>
+        </div>
+
+        <div class="caixaPC">
+            <h2>PC</h2>
+            <br><br>
+            <img src="" alt="" id="imgPC">
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

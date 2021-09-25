@@ -1,0 +1,53 @@
+body {
+    background-image: linear-gradient(red, yellow);
+}
+
+h1 {
+    color: orange;
+    margin-left: 200px;
+}
+
+h2{
+    color: orange;
+    margin-left: 50px;
+}
+.telaJogoInteiro {
+    margin: 20%;
+    background-color: black;
+    border: white dotted;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.caixaJogador{
+    margin-bottom: 80px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.caixaPC {
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+.botaoJogo{
+    background-color: orange;
+}
+
+.botaoJogo:hover {
+    background-image: linear-gradient(red, yellow);
+}
+
+#comboEscolha {
+    background-image: linear-gradient(red, yellow);
+    background-color: orange;
+}
+
+#comboEscolha:hover {
+    background-color: orange;
+}
+
+
+
+
